@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /checkout.html
+Disallow: /fotoprint.html
+
+Sitemap: https://REPLACE-WITH-PRODUCTION-DOMAIN/sitemap.xml

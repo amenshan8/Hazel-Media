@@ -228,7 +228,7 @@ body.has-pink-cursor input,body.has-pink-cursor textarea,body.has-pink-cursor se
    PERSONALITY — editorial sequential words
    ============================================================ */
 .pers{position:relative}
-.pers-word{display:block;font-family:var(--serif);font-weight:400;font-size:clamp(3rem,10vw,7.5rem);line-height:1;color:var(--ink);letter-spacing:-.01em}
+.pers-word{display:block;font-family:var(--serif);font-weight:400;font-size:clamp(3rem,8vw,5rem);line-height:1;color:var(--ink);letter-spacing:-.01em}
 .pers-item{display:grid;grid-template-columns:1fr minmax(0,34ch);gap:2rem;align-items:baseline;border-top:1px solid var(--line);padding:clamp(1.4rem,3vw,2.2rem) 0}
 .pers-item:last-child{border-bottom:1px solid var(--line)}
 .pers-item p{color:var(--muted);font-size:1.02rem;opacity:0;transform:translateY(10px);transition:.7s var(--ease) .2s}
@@ -343,7 +343,7 @@ body.has-pink-cursor input,body.has-pink-cursor textarea,body.has-pink-cursor se
   .hero h1{font-size:clamp(2.9rem,16vw,4.7rem)}
   .hero-cta .btn{width:100%;justify-content:center}
   .foot-top{grid-template-columns:1fr}
-  .pers-word{font-size:clamp(2.8rem,13vw,4.5rem)}
+   .pers-word{font-size:clamp(2.8rem,10vw,4rem)}
   .move-inner{flex-direction:column;gap:.4rem}
 }
 
